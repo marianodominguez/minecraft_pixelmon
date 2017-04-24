@@ -1,0 +1,77 @@
+[17:33:48] [Server thread/INFO]: Starting minecraft server version 1.10.2
+[17:33:51] [Server thread/INFO]: Loading properties
+[17:33:51] [Server thread/INFO]: Default game type: SURVIVAL
+[17:33:51] [Server thread/INFO]: Generating keypair
+[17:33:51] [Server thread/INFO]: Starting Minecraft server on *:25565
+[17:33:51] [Server thread/INFO]: Using epoll channel type
+[17:33:52] [Server thread/WARN]: Failed to load user banlist: 
+java.io.FileNotFoundException: banned-players.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_121]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_121]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_187246_z(SourceFile:99) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:25) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_121]
+[17:33:52] [Server thread/WARN]: Failed to load ip banlist: 
+java.io.FileNotFoundException: banned-ips.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_121]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_121]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_187249_y(SourceFile:91) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:27) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_121]
+[17:33:52] [Server thread/WARN]: Failed to load operators list: 
+java.io.FileNotFoundException: ops.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_121]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_121]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72417_t(SourceFile:107) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:29) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_121]
+[17:33:52] [Server thread/WARN]: Failed to load white-list: 
+java.io.FileNotFoundException: whitelist.json (No such file or directory)
+	at java.io.FileInputStream.open(Native Method) ~[?:1.7.0_121]
+	at java.io.FileInputStream.<init>(FileInputStream.java:146) ~[?:1.7.0_121]
+	at com.google.common.io.Files.newReader(Files.java:86) ~[minecraft_server.1.10.2.jar:?]
+	at net.minecraft.server.management.UserList.func_152679_g(SourceFile:136) ~[mt.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.func_72418_v(SourceFile:123) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedPlayerList.<init>(SourceFile:30) [lc.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71197_b(DedicatedServer.java:215) [ld.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:431) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:745) [?:1.7.0_121]
+[17:33:52] [Server thread/INFO]: Preparing level "world"
+[17:33:53] [Server thread/INFO]: Preparing start region for level 0
+[17:33:55] [Server thread/INFO]: Preparing spawn area: 4%
+[17:33:56] [Server thread/INFO]: Preparing spawn area: 6%
+[17:33:57] [Server thread/INFO]: Preparing spawn area: 8%
+[17:33:58] [Server thread/INFO]: Preparing spawn area: 11%
+[17:33:59] [Server thread/INFO]: Preparing spawn area: 15%
+[17:34:00] [Server thread/INFO]: Preparing spawn area: 21%
+[17:34:01] [Server thread/INFO]: Preparing spawn area: 27%
+[17:34:02] [Server thread/INFO]: Preparing spawn area: 36%
+[17:34:03] [Server thread/INFO]: Preparing spawn area: 46%
+[17:34:04] [Server thread/INFO]: Preparing spawn area: 56%
+[17:34:05] [Server thread/INFO]: Preparing spawn area: 65%
+[17:34:06] [Server thread/INFO]: Preparing spawn area: 75%
+[17:34:07] [Server thread/INFO]: Preparing spawn area: 84%
+[17:34:08] [Server thread/INFO]: Preparing spawn area: 94%
+[17:34:08] [Server thread/INFO]: Done (16.890s)! For help, type "help" or "?"
+[17:34:11] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2090ms behind, skipping 41 tick(s)
+[17:34:47] [Server thread/INFO]: Stopping the server
+[17:34:47] [Server thread/INFO]: Stopping server
+[17:34:47] [Server thread/INFO]: Saving players
+[17:34:47] [Server thread/INFO]: Saving worlds
+[17:34:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[17:34:47] [Server thread/INFO]: Saving chunks for level 'world'/Nether
+[17:34:47] [Server thread/INFO]: Saving chunks for level 'world'/The End
+[17:34:48] [Server Shutdown Thread/INFO]: Stopping server
+[17:34:48] [Server Shutdown Thread/INFO]: Saving players

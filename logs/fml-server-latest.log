@@ -1,0 +1,165 @@
+[17:36:37] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[17:36:38] [main/INFO] [FML/]: Forge Mod Loader version 12.18.3.2281 for Minecraft 1.10.2 loading
+[17:36:38] [main/INFO] [FML/]: Java is OpenJDK 64-Bit Server VM, version 1.7.0_121, running on Linux:amd64:3.13.0-116-generic, installed at /usr/lib/jvm/java-7-openjdk-amd64/jre
+[17:36:38] [main/DEBUG] [FML/]: Java classpath at launch is forge.jar
+[17:36:38] [main/DEBUG] [FML/]: Java library path at launch is :/usr/local/lib:/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+[17:36:38] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[17:36:38] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[17:36:38] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[17:36:38] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[17:36:38] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[17:36:38] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[17:36:38] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[17:36:38] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to /home/mariano/minecraft-server/.
+[17:36:38] [main/DEBUG] [FML/]: Discovering coremods
+[17:36:38] [main/DEBUG] [FML/]: Examining for coremod candidacy Pixelmon-1.10.2-5.0.3-universal.jar
+[17:36:38] [main/DEBUG] [FML/]: Not found coremod data in Pixelmon-1.10.2-5.0.3-universal.jar
+[17:36:38] [main/DEBUG] [FML/]: Examining for coremod candidacy spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar
+[17:36:38] [main/INFO] [FML/]: Loading tweaker org.spongepowered.asm.launch.MixinTweaker from spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar
+[17:36:38] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:36:38] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.launch.MixinTweaker
+[17:36:38] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.6.8 Source=file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar Env=SERVER
+[17:36:38] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #1
+[17:36:38] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[17:36:38] [main/DEBUG] [mixin/]: Mixin platform: primary container is file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar
+[17:36:38] [main/DEBUG] [mixin/]: Adding mixin platform agents for container file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar
+[17:36:38] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentFML for file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar
+[17:36:38] [main/DEBUG] [mixin/]: spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar has core plugin org.spongepowered.mod.SpongeCoremod. Injecting it into FML for co-initialisation:
+[17:36:38] [main/DEBUG] [FML/]: Instantiating coremod class SpongeCoremod
+[17:36:38] [main/DEBUG] [FML/]: The coremod org.spongepowered.mod.SpongeCoremod requested minecraft version 1.10.2 and minecraft is 1.10.2. It will be loaded.
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: java.lang.RuntimeException: We have detected that you are JRE version 1.7.0_121, which is out of date!
+In order to run Sponge, you **must** be running JRE version 1.8.0_40 (or above).
+Previous builds of JRE version 1.8 will not work with Sponge.
+This can be downloaded from Oracle: http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.launch.JavaVersionCheckUtils.ensureJava8(JavaVersionCheckUtils.java:49)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.mod.SpongeCoremod.<init>(SpongeCoremod.java:74)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.Class.newInstance(Class.java:383)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:605)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFML.injectCorePlugin(MixinPlatformAgentFML.java:170)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFML.initFMLCoreMod(MixinPlatformAgentFML.java:112)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFML.<init>(MixinPlatformAgentFML.java:97)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.platform.MixinContainer.<init>(MixinContainer.java:68)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.platform.MixinPlatformManager.addContainer(MixinPlatformManager.java:139)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.platform.MixinPlatformManager.<init>(MixinPlatformManager.java:103)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.MixinBootstrap.getPlatform(MixinBootstrap.java:113)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.MixinBootstrap.start(MixinBootstrap.java:163)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at org.spongepowered.asm.launch.MixinTweaker.<init>(MixinTweaker.java:44)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.Class.newInstance(Class.java:383)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:62)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:<init>:76]: 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:31)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: java.lang.NoSuchFieldException: security
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.Class.getDeclaredField(Class.java:1961)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.mod.SpongeCoremod.clearSecurityManager(SpongeCoremod.java:128)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.mod.SpongeCoremod.<init>(SpongeCoremod.java:77)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.Class.newInstance(Class.java:383)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at net.minecraftforge.fml.relauncher.CoreModManager.loadCoreMod(CoreModManager.java:605)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFML.injectCorePlugin(MixinPlatformAgentFML.java:170)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFML.initFMLCoreMod(MixinPlatformAgentFML.java:112)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.platform.MixinPlatformAgentFML.<init>(MixinPlatformAgentFML.java:97)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.platform.MixinContainer.<init>(MixinContainer.java:68)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.platform.MixinPlatformManager.addContainer(MixinPlatformManager.java:139)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.platform.MixinPlatformManager.<init>(MixinPlatformManager.java:103)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.MixinBootstrap.getPlatform(MixinBootstrap.java:113)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.MixinBootstrap.start(MixinBootstrap.java:163)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at org.spongepowered.asm.launch.MixinTweaker.<init>(MixinTweaker.java:44)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.Class.newInstance(Class.java:383)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at java.lang.reflect.Method.invoke(Method.java:606)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.run(ServerLaunchWrapper.java:62)
+[17:36:43] [main/INFO] [STDERR/]: [org.spongepowered.mod.SpongeCoremod:clearSecurityManager:132]: 	at net.minecraftforge.fml.relauncher.ServerLaunchWrapper.main(ServerLaunchWrapper.java:31)
+[17:36:43] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar
+[17:36:43] [main/DEBUG] [mixin/]: Scanning file:/home/mariano/minecraft-server/forge.jar for mixin tweaker
+[17:36:43] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:36:43] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:36:43] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:36:43] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:36:43] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[17:36:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[17:36:43] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[PREINIT]
+[17:36:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[17:36:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[17:36:43] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[17:36:43] [main/DEBUG] [FML/]: Injection complete
+[17:36:43] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[17:36:43] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[17:36:43] [main/DEBUG] [FML/]: Read 914 binary patches
+[17:36:44] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.10.2.lzma with 32371 records
+[17:36:44] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[17:36:44] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[17:36:44] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:36:44] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[17:36:44] [main/DEBUG] [FML/]: Injection complete
+[17:36:44] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[17:36:44] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[17:36:44] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[17:36:44] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.launch.MixinTweaker
+[17:36:44] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentFML:file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar]
+[17:36:44] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar]
+[17:36:44] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentFML:file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar]
+[17:36:44] [main/DEBUG] [mixin/]: Creating FML remapper adapter: org.spongepowered.asm.bridge.RemapperAdapterFML
+[17:36:46] [main/INFO] [mixin/]: Initialised Mixin FML Remapper Adapter with net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper@2cec9411
+[17:36:46] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar]
+[17:36:46] [main/DEBUG] [mixin/]: Scanning file:/home/mariano/minecraft-server/forge.jar for mixin tweaker
+[17:36:46] [main/DEBUG] [mixin/]: Scanning asmgen:/ for mixin tweaker
+[17:36:46] [main/DEBUG] [mixin/]: injectIntoClassLoader running with 1 agents
+[17:36:46] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentFML:file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar]
+[17:36:46] [main/DEBUG] [mixin/]: Processing injectIntoClassLoader() for PlatformAgent[MixinPlatformAgentDefault:file:/home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar]
+[17:36:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[17:36:46] [main/DEBUG] [FML/]: Loaded 195 rules from AccessTransformer config file forge_at.cfg
+[17:36:46] [main/DEBUG] [FML/]: Loaded 8 rules from AccessTransformer mod jar file /home/mariano/minecraft-server/mods/Pixelmon-1.10.2-5.0.3-universal.jar!META-INF/pixelmon_at.cfg
+
+[17:36:46] [main/DEBUG] [FML/]: Loaded 379 rules from AccessTransformer mod jar file /home/mariano/minecraft-server/mods/spongeforge-1.10.2-2281-5.2.0-BETA-2274.jar!META-INF/common_at.cfg
+
+[17:36:46] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #2
+[17:36:46] [main/DEBUG] [FML/]: Validating minecraft
+[17:36:46] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[INIT]
+[17:36:46] [main/ERROR] [FML/]: The game is not running with Java 8. Forge recommends Java 8 for maximum compatibility with mods
+[17:36:46] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[17:36:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:36:46] [main/INFO] [LaunchWrapper/]: Loading tweak class name org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[17:36:46] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[17:36:46] [main/INFO] [LaunchWrapper/]: Calling tweak class org.spongepowered.asm.mixin.MixinEnvironment$EnvironmentStateTweaker
+[17:36:46] [main/DEBUG] [mixin/]: Adding new mixin transformer proxy #3
+[17:36:47] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
